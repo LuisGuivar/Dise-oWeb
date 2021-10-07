@@ -1,0 +1,176 @@
+.grid{
+    margin-top: 0px auto;
+    min-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 100px 1fr 100px 50px; 
+    grid-template-areas:"my-header" "my-nav" "my-section" "my-aside" "my-footer" ;   
+
+}
+
+header{
+    grid-area: my-header;
+    background-color:#42ca76 ;
+    
+}
+
+nav  {
+   
+    grid-area: my-nav;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+    text-align: left;
+}
+
+nav ,a{
+    height: 50px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 70px;
+    margin-bottom: 0px;
+}
+#a{
+    background-color: rgb(35, 38, 240);  
+    height: 50px;
+}
+
+
+section{    
+    grid-area: my-section;
+    background-color: rgb(255, 255, 255);
+ margin-left: 0px;
+  
+}
+
+aside{
+    grid-area: my-aside;
+    background-color: rgb(182, 231, 125);
+    color: black;
+    padding-left: 0px;
+   
+}
+
+footer{
+    
+    grid-area: my-footer;
+    background-color: #42ca76 ;
+    
+}
+
+
+#caja{
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px; 
+    background: rgb(5, 4, 4);
+    text-align: center ; 
+}
+#fotoabajo{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+@media(min-width: 600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px; 
+        grid-template-areas:"my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer" ;
+    }}
+    
+@media(min-width: 1001px) {
+    .grid{
+        grid-template-columns:1055px 1fr 0px;
+        grid-template-rows: 120px  50px 1fr 180px; 
+        grid-template-areas:"my-header  my-header " "my-nav  my-nav" "my-section  my-aside" "my-footer  my-footer" ;
+    }}
+
+img{
+    padding-top: 0px;   
+    height: 120px;
+    width: 120px;
+    float: left;  
+    margin-top: 2px;
+    margin-left: 50px; 
+    margin-right: 20px; 
+    margin-bottom: 5px;  
+
+    }
+
+
+h1{
+   
+    color: rgb(0, 0, 0);
+    line-height: 0%;
+    padding-top: 20px;
+    }
+
+
+h3{
+    color: red;
+    padding-left: 10px;   
+    margin-left: 0px;    
+    }
+
+
+#hiper1{
+    padding-left: 0px;
+    color: black;
+    background-color: rgb(159, 218, 92)
+    
+}
+
+#hiper2{
+    padding-left: 0px;
+    color: black;
+    background-color: #42ca76
+    
+}
+
+
+
+fieldset{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color:rgb(159, 218, 92) ;
+    border-color: transparent;
+   
+}
+
+#tamañoCuadro{
+    width: 280px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    background-color:rgb(255, 255, 255) ;
+    border-color: transparent;
+    text-align: left;
+}
+
+
+#formulario1{
+    padding-left: opx;
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#centrar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color:#42ca76;
+}
+
+

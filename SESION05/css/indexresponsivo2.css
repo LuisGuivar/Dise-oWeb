@@ -8,7 +8,7 @@
     grid-template-areas:"my-header" "my-nav" "my-section" "my-aside" "my-footer" ;
 }
 
-header{
+    header{
     grid-area: my-header;
     background-color: blue;
     
